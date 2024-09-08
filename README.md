@@ -14,11 +14,11 @@ ZKPunk 是一个以社区为核心的零知识证明（zk）组织，致力于�
 ## 我们正在进行的项目
 
 ### 📔 ZKPunk 知识平台
-我们的知识平台 [learn.zkpunk.pro](https://learn.zkpunk.pro) 致力于汇聚并开源全球分散的 zk 相关资料，整理成结构化的内容，方便社区成员随时访问并学习。
+ [learn.zkpunk.pro](https://learn.zkpunk.pro) 致力于汇聚并开源全球分散的 zk 相关资料，整理成结构化的内容，方便社区成员随时访问并学习。
 
 
 ### 💡 zk insight 周报
-我们的周报 [zk insight](https://insights.zkpunk.pro) 每周定期发布，涵盖 zk 领域的最新技术进展、学术论文和项目更新，帮助社区保持对 zk 行业发展的前沿洞察。
+ [zk insight](https://insights.zkpunk.pro) 每周定期发布，涵盖 zk 领域的最新技术进展、学术论文和项目更新，帮助社区保持对 zk 行业发展的前沿洞察。
 
 
 ### 🏖️ zkp-academy
