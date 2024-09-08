@@ -1,5 +1,7 @@
 
-<img src="src/zkpunk-logo.png" />
+<div align="center">
+  <img src="src/zkpunk-logo.png" alt="zkpunk logo" width="300"/>
+</div>
 
 
 ZKPunk 是一个以社区为核心的零知识证明（zk）组织，致力于推动 zk 技术的普及与发展。我们专注于整合 zk 相关的资源，并通过创建高质量的学习内容与工具，帮助全球开发者更好地理解和应用 zk 技术。
