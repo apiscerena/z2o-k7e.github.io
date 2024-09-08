@@ -23,7 +23,7 @@ ZKPunk 是一个以社区为核心的零知识证明（zk）组织，致力于�
 
 ### 🏖️ zkp-academy
 
-我们正在进行一系列面向各个层次学习者的课程，包括理论和代码各个方面，帮助开发者全面掌握 zk 技术。
+我们正在进行一系列面向各类学习者的课程，包括理论和代码不同方面，帮助开发者全面掌握 zk 技术。
 
 [Plonk course](https://github.com/Antalpha-Labs/zkp-academy/tree/main/Plonk)
 
