@@ -1,7 +1,5 @@
 
-
-
-![](./src/zkpunk-logo.png)
+<img src="src/zkpunk-logo.png" />
 
 
 ZKPunk 是一个以社区为核心的零知识证明（zk）组织，致力于推动 zk 技术的普及与发展。我们专注于整合 zk 相关的资源，并通过创建高质量的学习内容与工具，帮助全球开发者更好地理解和应用 zk 技术。
@@ -18,7 +16,7 @@ ZKPunk 是一个以社区为核心的零知识证明（zk）组织，致力于�
 
 
 ### 💡 zk insight 周报
-我们的周报 [zk insight](https://insights.zkpunk.pro)每周定期发布，涵盖 zk 领域的最新技术进展、学术论文和项目更新，帮助社区保持对 zk 行业发展的前沿洞察。
+我们的周报 [zk insight](https://insights.zkpunk.pro) 每周定期发布，涵盖 zk 领域的最新技术进展、学术论文和项目更新，帮助社区保持对 zk 行业发展的前沿洞察。
 
 
 ### 🏖️ zkp-academy
