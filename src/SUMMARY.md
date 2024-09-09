@@ -1,8 +1,8 @@
 # Summary
 
-[🌟 About z2o-k7e  /zu:ˈki:/](./README.md)
+[🌟 About ZKPunk](./README.md)
 
-[🚩 Our Vision & Roadmap](./vision.md)
+<!-- [🚩 Our Vision & Roadmap](./vision.md) -->
 
 [📖 How-to-contribute](./how-to-contribute.md)
 
@@ -128,3 +128,14 @@
 
 - [ZKP Space](./zkp-space/toc.md)
   - [2023.10.12: 聊聊 ZKP Coprocessor](./zkp-space/2023-10-22-zkp-coprocessor.md)
+
+
+---
+
+[zkp-academy](https://github.com/Antalpha-Labs/zkp-academy)
+
+我们正在进行一系列面向各类学习者的课程，包括理论和代码不同方面，帮助开发者全面掌握 zk 技术。
+
+[Plonk course](https://github.com/Antalpha-Labs/zkp-academy/tree/main/Plonk)
+
+[FRI & Stark course](https://github.com/Antalpha-Labs/zkp-academy/tree/main/FRI%26Stark)
