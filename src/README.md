@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="src/zkpunk-logo.png" alt="zkpunk logo" width="300"/>
+  <img src="src/zkpunk-logo.png" alt="ZKPunk logo" />
 </div>
 
 
@@ -14,7 +14,7 @@ ZKPunk 是一个以社区为核心的零知识证明（zk）组织，致力于�
 ## 我们正在进行的项目
 
 ### 📔 ZKPunk 知识平台
- [learn.zkpunk.pro](https://learn.zkpunk.pro) 致力于汇聚并开源全球分散的 zk 相关资料，整理成结构化的内容，方便社区成员随时访问并学习。
+ [zkpunk.pro/ZKPedia](https://zkpunk.pro/ZKPedia/) 致力于汇聚并开源全球分散的 zk 相关资料，整理成结构化的内容，方便社区成员随时访问并学习。
 
 
 ### 💡 zk insight 周报

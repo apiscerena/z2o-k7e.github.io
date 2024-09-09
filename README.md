@@ -1,10 +1,10 @@
 
 <div align="center">
-  <img src="src/zkpunk-logo.png" alt="zkpunk logo" width="300"/>
+  <img src="src/zkpunk-logo.png" alt="ZKPunk logo" />
 </div>
 
 
-ZKPunk 是一个以社区为核心的零知识证明（zk）组织，致力于推动 zk 技术的普及与发展。我们专注于整合 zk 相关的资源，并通过创建高质量的学习内容与工具，帮助全球开发者更好地理解和应用 zk 技术。
+ZKPunk 是一个以社区为核心的零知识证明（zk）组织，致ZKP z力于推动 zk 技术的普及与发展。我们专注于整合 zk 相关的资源，并通过创建高质量的学习内容与工具，帮助全球开发者更好地理解和应用 zk 技术。
 
 
 ## 🚀 我们的愿景是：
@@ -14,7 +14,7 @@ ZKPunk 是一个以社区为核心的零知识证明（zk）组织，致力于�
 ## 我们正在进行的项目
 
 ### 📔 ZKPunk 知识平台
- [learn.zkpunk.pro](https://learn.zkpunk.pro) 致力于汇聚并开源全球分散的 zk 相关资料，整理成结构化的内容，方便社区成员随时访问并学习。
+ [zkpunk.pro/ZKPedia](https://zkpunk.pro/ZKPedia/)  致力于汇聚并开源全球分散的 zk 相关资料，整理成结构化的内容，方便社区成员随时访问并学习。
 
 
 ### 💡 zk insight 周报
