@@ -1,6 +1,6 @@
 # Plonk Course
 
-## 基本信息
+## [基本信息](https://github.com/Antalpha-Labs/zkp-academy/tree/main/Plonk)
 
 ZKP（零知识证明）技术为加密行业带来了新的叙事和活力，ZKP 和区块链的结合正在经历快速发展和广泛应用的过程，充满着巨大的想象和潜力， 而当下只有较少人踏足，这意味着 **ZK 领域仍是一片蓝海**。
 
