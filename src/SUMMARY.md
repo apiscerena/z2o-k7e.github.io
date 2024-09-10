@@ -133,7 +133,7 @@
 ---
 
 - [zkp-academy](./zkp-academy/toc.md)
- - [FRI & Stark](./zkp-academy/FRI%20&%20Stark.md)
- - [Plonk](./zkp-academy/Plonk.md)
+  - [FRI & Stark](./zkp-academy/FRI%20&%20Stark.md)
+  - [Plonk](./zkp-academy/Plonk.md)
   
   

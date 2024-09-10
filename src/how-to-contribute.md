@@ -6,7 +6,7 @@
 
 ## 贡献流程
 
-1. Github 上 fork 本 [Repo](https://github.com/zkp-co-learning/zkp-co-learning.github.io)
+1. Github 上 fork 本 [Repo](https://github.com/ZKPunk-Org/ZKPedia)
 2. 可以在 `./src/zk-everything` 下 `mkdir` 一个以自己名字命名的文件夹
 3. `src/SUMMARY.md` 是前端网站显示的文件组织目录，可以修改该文件，找到一个合适的放置目录，将文章的本地 `.md` 文件位置链接过去
 4. 正常的 PR 流程
@@ -67,7 +67,7 @@ This will take a while, go and grab a drink of water.
 
 如果文章有对应的实战代码那就再好不过啦！
 
-可以直接 PR 到另一个 [Repo](https://github.com/zkp-co-learning/zkp-co-learn)，新建一个目录即可。
+可以直接 PR 到另一个 [Repo](https://github.com/ZKPunk-Org/ZKPedia)，新建一个目录即可。
 
 ```bash
 ├── Nova
