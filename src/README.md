@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="src/zkpunk-logo.png" alt="ZKPunk logo" />
+  <img src="src/black-logo.jpg" alt="ZKPunk logo" />
 </div>
 
 
