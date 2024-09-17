@@ -269,8 +269,8 @@ msgid "**World!**"
 msgstr "**World!**"
 
 #: src/index.md:21
-msgid "[github](https://github.com/zkp-co-learning) of "
-msgstr "[github](https://github.com/zkp-co-learning) of "
+msgid "[github](https://github.com/ZKPunk-Org/ZKPedia) of "
+msgstr "[github](https://github.com/ZKPunk-Org/ZKPedia) of "
 
 #: src/index.md:21 src/zk-snarks/2-Non-interactivity&Distributed-Setup.md:26
 #: src/zk-snarks/2-Non-interactivity&Distributed-Setup.md:30
@@ -2192,10 +2192,10 @@ msgstr "贡献流程"
 
 #: src/index.md:35
 msgid ""
-"Github 上 fork 本 [Repo](https://github.com/zkp-co-learning/zkp-co-learning."
+"Github 上 fork 本 [Repo](https://github.com/ZKPunk-Org/ZKPedia."
 "github.io)"
 msgstr ""
-"Github 上 fork 本 [Repo](https://github.com/zkp-co-learning/zkp-co-learning."
+"Github 上 fork 本 [Repo](https://github.com/ZKPunk-Org/ZKPedia."
 "github.io)"
 
 #: src/index.md:36
@@ -2342,11 +2342,11 @@ msgstr "如果文章有对应的实战代码那就再好不过啦！"
 
 #: src/index.md:102
 msgid ""
-"可以直接 PR 到另一个 [Repo](https://github.com/zkp-co-learning/zkp-co-"
-"learn)，新建一个目录即可。"
+"可以直接 PR 到另一个 [Repo](https://github.com/ZKPunk-Org/ZKPedia"
+")，新建一个目录即可。"
 msgstr ""
-"可以直接 PR 到另一个 [Repo](https://github.com/zkp-co-learning/zkp-co-"
-"learn)，新建一个目录即可。"
+"可以直接 PR 到另一个 [Repo](https://github.com/ZKPunk-Org/ZKPedia"
+")，新建一个目录即可。"
 
 #: src/index.md:113
 msgid "这边还没想好怎么放，可能后面位置有改动，不过...反正先放就好了 ！"
