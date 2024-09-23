@@ -93,7 +93,7 @@
 
 
 - [Recurrent Q&A](./zkp-QA.md)
-- [zk-everything](./zk-everything/toc.md)
+- [ZK Everything](./zk-everything/toc.md)
   - [BabySNARK tutorial](./zk-everything/BabySNARK%20tutorial.md)
   - [KZG](./zk-everything/zk-learning-miles/KZG.md)
   - [Lecture1:Overview about Zeroknowledge](./zk-everything/zk-learning-miles/Lecture1:Overview%20about%20Zeroknowledge.md)
@@ -127,7 +127,7 @@
 
 ---
 
-- [zkp-academy](./zkp-academy/toc.md)
+- [ZK Academy](./zkp-academy/toc.md)
   - [FRI & Stark](./zkp-academy/FRI%20&%20Stark.md)
   - [Plonk](./zkp-academy/Plonk.md)
 
