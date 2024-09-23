@@ -58,8 +58,8 @@
 
 
 ---
-- [FRI&Stark](./FRI&Stark-intro.md)
-  
+- [FRI&Stark](./FRI&Stark/FRI&Stark-intro.md)
+
 
 ---
 
