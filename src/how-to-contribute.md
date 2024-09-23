@@ -89,8 +89,8 @@ This will take a while, go and grab a drink of water.
 
 ```bash
 $ [安装 Rust]
-$ cargo install mdbook mkbook-latex  mdbook-toc
-$ mkbook serve --open       # 本地预览
+$ cargo install mdbook mdbook-latex  mdbook-toc
+$ mdbook serve --open       # 本地预览
 
 ```
 
