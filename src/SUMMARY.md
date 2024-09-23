@@ -124,16 +124,11 @@
   - [对话姚翔：解读零知识证明的前世今生](./exp/freeyao.md)
   - [邓燚：零知识，模拟与归约（一个个人化的视角）](https://zhuanlan.zhihu.com/p/268305208)
 
----
-
-- [ZKP Space](./zkp-space/toc.md)
-  - [2023.10.12: 聊聊 ZKP Coprocessor](./zkp-space/2023-10-22-zkp-coprocessor.md)
-
 
 ---
 
 - [zkp-academy](./zkp-academy/toc.md)
   - [FRI & Stark](./zkp-academy/FRI%20&%20Stark.md)
   - [Plonk](./zkp-academy/Plonk.md)
-  
-  
+
+
