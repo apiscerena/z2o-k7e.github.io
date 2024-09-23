@@ -7,7 +7,7 @@
 ## 贡献流程
 
 1. Github 上 fork 本 [Repo](https://github.com/ZKPunk-Org/ZKPedia)
-2. 在 `./src/zk-everything` 下 `mkdir` 一个以自己名字命名的文件夹
+2. 在 `./src/zk-everything` 下新建一个文件夹，并在文件夹中新建一个 `.md` 文件，将文章内容写入
 3. `src/SUMMARY.md` 是前端网站显示的文件组织目录，修改该文件，找到一个合适的放置目录，将文章的本地 `.md` 文件位置链接过去
 4. 提交 Pull Request
 5. Pull Request 被 merge 后很快就会在 <https://learn.zkpunk.pro> 网站显示
@@ -87,7 +87,7 @@ cargo install mdbook mdbook-latex  mdbook-toc
 3. 运行
 
 ```bash
-mdbook serve --open 
+mdbook serve --open
 ```
 
 Tips :
