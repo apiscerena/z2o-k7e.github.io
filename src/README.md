@@ -13,15 +13,15 @@ ZKPunk 是一个以零知识证明 (zkp) 技术为核心的内容平台，致力
 
 ## 正在进行的项目
 
-### 📔 ZKPunk 知识库
+### 📔 ZKPedia
 
- [zkpunk.pro/ZKPedia](https://zkpunk.pro/ZKPedia/) 旨在构建一个优质的 zkp 知识库，以方便社区成员随时访问并学习。
+[ZKPedia](https://zkpunk.pro/ZKPedia/) 旨在构建一个优质的 zkp 知识库，以方便社区成员随时访问并学习。
 
-### 💡 zk insights
+### 💡 ZK Insights
 
-[zk insight](https://insights.zkpunk.pro) 是一个 zkp 领域的周报，涵盖 zkp 领域的最新技术进展、学术论文和项目更新，帮助社区保持对 zkp 行业发展的前沿洞察。
+[ZK Insight](https://insights.zkpunk.pro) 是一个 zkp 领域的周报，涵盖 zkp 领域的最新技术进展、学术论文和项目更新，帮助社区保持对 zkp 行业发展的前沿洞察。
 
-### 🏖️ zk academy
+### 🏖️ ZK Academy
 
 面向各类学习者的 zkp 课程，适合想深入和全面的了解某个方向的学习者。
 
