@@ -57,6 +57,9 @@
   - [理解 Lasso (五)：表格的 MLE 结构](./lasso-zh/lasso-5.md)
 
 
+---
+- [FRI&Stark](./FRI&Stark-intro.md)
+  
 
 ---
 
@@ -128,7 +131,7 @@
 ---
 
 - [ZK Academy](./zkp-academy/toc.md)
-  - [FRI & Stark](./zkp-academy/FRI%20&%20Stark.md)
-  - [Plonk](./zkp-academy/Plonk.md)
+  - [FRI & Stark Course](./zkp-academy/FRI%20&%20Stark.md)
+  - [Plonk Course](./zkp-academy/Plonk.md)
 
 
