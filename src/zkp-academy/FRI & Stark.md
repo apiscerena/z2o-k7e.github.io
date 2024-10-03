@@ -1,6 +1,6 @@
 # FRI & Stark Course
 
-## [基本信息](https://github.com/Antalpha-Labs/zkp-academy/tree/main/FRI%26Stark)
+## 基本信息
 
 FRI（Fast Reed-Solomon Interactive Oracle Proof of Proximity）是 STARKs（Scalable Transparent ARguments of Knowledge）的核心组成部分。
 
@@ -59,6 +59,9 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 
 共学资料：[STARK101](https://starkware.co/stark-101/)
 
+
+**第一 part 作业**：[Arithmetization in STARKs](https://github.com/Antalpha-Labs/zkp-academy/discussions/35)
+
 ### Part 2: zk-learning.org Lecture 8【8月26日 - 9月8日】
 
 通过 zk-learning 的第八讲及其它辅助材料，深入理解 zk-STARKs 的工作原理和技术细节。
@@ -83,9 +86,9 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
   - 课程内容：STARK的形式化流程及安全性分析，讲师：Yingfei，时间：星期四晚上8点
   - 课程回放：[Youtube 链接](https://youtu.be/p3zxhnSDqFM)
 - 第五节课：Soundness of FRI.
-  - 课程内容：FRI协议的安全性分析，讲师：Yingfei，时间：星期六晚上8点  
+  - 课程内容：FRI协议的安全性分析，讲师：Yingfei，时间：星期六晚上8点
+  - 课程回放：[Youtube 链接](https://youtu.be/Sfm5GjI69fc)
 
-课程回放：
 
 共学资料：[zk-learning.org](https://zk-learning.org/)
 
@@ -114,18 +117,27 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 【第一周课程安排】
 - 第一节课：lambda class版zk-stark实现
   - 预习材料： 阅读lambda class版zk-stark的[理论和实现流程](https://lambdaclass.github.io/lambdaworks/starks/recap.html)，有余力的可以看看[代码实现](https://github.com/lambdaclass/lambdaworks/tree/main/provers/stark)，领航员: 饭卡，时间：星期二，晚上8点
+  - 课程回放：[Youtube 链接](https://youtu.be/wEIiSuaMH4o)
 - 第二节课：Plonky3 two_adic_pcs概述
-  - 预习材料：[Plonky3](https://github.com/Plonky3/Plonky3)fri文件夹内的代码，领航员: 阳小雪，时间：星期四，晚上8点
+  - 预习材料：
+    - [Plonky3](https://github.com/Plonky3/Plonky3)fri文件夹内的代码，
+    - two_adic_pcs运行流程图：https://miro.com/app/board/uXjVNbLn8WU=/?share_link_id=878894620109
+  - 领航员: 阳小雪，时间：星期四，晚上8点
+  - 课程回放：[Youtube 链接](https://youtu.be/swCjt9YibyE)
+  - [课堂手写文档](https://learned-elm-078.notion.site/plonky3-fri-111680b62bca80048868e562373ec851?pvs=4)
 
 【第二周课程安排】
 - 第三节课：
   - Plonky3/fri/src/two_adic_pcs.rs
-  - 预习材料：[Plonky3](https://github.com/Plonky3/Plonky3)fri文件夹内的代码，领航员: 阳小雪，时间：星期二，晚上8点
+  - 预习材料：[Plonky3](https://github.com/Plonky3/Plonky3)fri文件夹内的代码，领航员: 阳小雪，时间：星期四，晚上8点
+  - 课程回放：[Youtube 链接](https://youtu.be/rUQK6j3Bhsk)
+  - [课堂手写文档](https://learned-elm-078.notion.site/plonky3-fri-111680b62bca80048868e562373ec851?pvs=4)
 - 第四节课：
   - uni-stark of plonky3
-  - 预习材料：[Plonky3](https://github.com/Plonky3/Plonky3)uni-stark 文件夹内的代码，领航员: hhh，时间：星期四，晚上8点
+  - 预习材料：[Plonky3](https://github.com/Plonky3/Plonky3)uni-stark 文件夹内的代码，领航员: hhh，时间：星期六，晚上8点
+  - 代码注释： https://github.com/cyl19970726/Plonky3/tree/main_comment
+  - 课程回放：[Youtube 链接](https://youtu.be/UHfP-1Pm1Ak)
 
-课程回放：
 
 共学资料：
   - [Plonky3](https://github.com/Plonky3/Plonky3)
@@ -136,10 +148,12 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
   3. [how to code fri from scratch](https://blog.lambdaclass.com/how-to-code-fri-from-scratch/)
   4. lambda class版zk-stark （[理论](https://lambdaclass.github.io/lambdaworks/starks/recap.html), [代码](https://github.com/lambdaclass/lambdaworks/tree/main/provers/stark)）
 
+**第三 part 作业**：[Plonky3-fri](https://github.com/Antalpha-Labs/zkp-academy/discussions/58)
+
 
 ### Part 4: Circle STARKs 【时间10月13日至10月19日，地点 清迈,泰国，参与此课程须完成线上课程，提前报名】
 
-+ 讲师：Kurt Pan、白菜、小熊、wangyao
++ 讲师：Kurt Pan、小熊、wangyao
 + 课程回放：
 + 共学资料：
   1. [Vitalik Blog](https://vitalik.eth.limo/general/2024/07/23/circlestarks.html)
@@ -167,15 +181,15 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 + [(算术化) Study of Arithmetization Methods for STARKs](https://eprint.iacr.org/2023/661.pdf)
 
 ## 作业
+第一 part 作业：[Arithmetization in STARKs](https://github.com/Antalpha-Labs/zkp-academy/discussions/35)
 
-
+第三 part 作业：[Plonky3-fri](https://github.com/Antalpha-Labs/zkp-academy/discussions/58)
 
 ### 老师介绍
 
   + Dream：Scroll Core Engineer，Blocksight 作者。数学&密码学持续学习者，前爱立信，微软高级工程师，区块链与隐私计算一线工程研发。
   + wangyao：数学博士（未完成）研究 ZK，学习 FHE，探索代数学和密码学的相交地带。
   + Kurt Pan：学院派新密码朋克，郭宇老师的好学生
-  + 白菜 cstark：多年 ML 从业者，ZKP 研究者，关注ZKML，撰写分享了多篇 ZKP 文章
   + Tim：Tim，北京邮电大学硕士，密码学爱好者，CTFer，热衷ZK安全。
   + 小熊：pku 物理本科，法国 AI 硕士，现正专注密码学，做 ZK 相关科研
   + Harold：研究 zk 协议 todolist 望不到头的人，偶尔会做一些技术分享，欢迎大家来一起讨论～
@@ -188,13 +202,3 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
   + 饭卡：电子科技大学硕士，持续学习 zk ing
 
 
-## Co-learn notes bounty
-
-为鼓励学员学习与分享，本课程推出 Co-learn notes bounty 活动，学员可以将学习中的内容整理成个人笔记提交到 co-learn notes 目录下，收录后每篇笔记给出 200CNY 的 bounty，并发布在 Antalpha-Labs 公众号上。笔记主题围绕 ZKP 相关技术，不局限于 FRI or Stark 协议。
-
-**联系方式**：添加小助手微信 AntalphaLabs
-**备注**：不要吝啬给我们一个 star 哦～
-
-## Sponsor
-
-<img src="assets/SN-Linear-Flat colour.png" width="75%;"/>
