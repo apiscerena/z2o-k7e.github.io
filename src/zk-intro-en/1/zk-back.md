@@ -156,8 +156,6 @@ Some uses of zero-knowledge proofs include:
 
 ## Example: The Map 3-Coloring Problem
 
-## 举例：地图三染色问题
-
 
 Now let’s discuss a classic problem, the map 3-coloring problem. How can we color a map using three colors so that no two adjacent regions have the same color? We can transform the "map 3-coloring problem" into a "vertex 3-coloring problem on a connected graph". Suppose each region has a capital (node), and adjacent nodes are connected. The map coloring problem becomes a vertex coloring problem on a connected graph.
 
@@ -166,34 +164,33 @@ Now let’s design an interactive protocol:
 + The "Prover" is Alice.
 + The "Verifier" is Bob.
 
-Alice 手里有一个地图三染色的答案，请见下图。这个图总共有 6 个顶点，9 条边。
 Alice has a solution to the map coloring problem, as shown below. This graph has six vertices and nine edges.
 
-![3c-0](img/3c-0.png)
+![1-1](img/1-1.png)
 
 Now Alice wants to prove to Bob that she has the solution but doesn’t want to reveal it. How can she do that?
 
 Alice first performs a "transformation" on the colored graph, shuffling the colors. For example, she could change all the green vertices to orange, all the blue ones to green, and all the orange ones to blue. She then gets a new coloring solution, and at this point, she covers each vertex with a piece of paper and presents the graph to Bob.
 
-![3c-1](img/3c-1.png)
+![1-2](img/1-2.png)
 
 In the image above, it’s now Bob’s turn to act. He randomly selects an edge — note that the selection is random, and Alice shouldn’t be able to predict it in advance.
 
-![3c-2](img/3c-2.png)
+![1-3](img/1-3.png)
 
 Suppose Bob selects the bottom edge and informs Alice.
 
-![3c-3](img/3c-3.png)
+![1-4](img/1-4.png)
 
 At this point, Alice uncovers the two vertices at the ends of the selected edge and lets Bob check. Bob finds out that the two vertices are of different colors, and thus concludes that the current check is isomorphic to the expected coloring. However, Bob has only seen a local part of the graph. Can he be convinced that the entire graph is correctly colored? You might think this is far from enough. Perhaps Alice just got lucky, and the other vertices could be randomly colored. No problem, Bob can ask Alice to do it again. See the image below.
 
-![3c-4](img/3c-4.png)
+![1-5](img/1-5.png)
 
 Alice transforms the coloring again, changing blue to purple, green to brown, and orange to gray. Then she covers all the vertices with paper again. Bob picks another edge, perhaps a vertical one this time, and asks Alice to uncover it. If Bob once again finds that the two vertices at the ends of the selected edge have different colors, he might start to believe that Alice really has the solution. But two rounds still aren’t enough; Bob wants to try more rounds.
 
 By repeating these three steps multiple times, the probability that Alice can cheat and successfully fool Bob decreases exponentially. If, after `n` rounds, Alice is cheating, the probability of her success is:
 $$
-Pr[(G, c)\ | \ ThreeColor(G, c) = 0] < (1 - \frac{1}{|E|})^n
+Pr[(G, c)\ | \text{ThreeColor}(G, c) = 0] < (1 - \frac{1}{|E|})^n
 $$
 
 Where `|E|` is the number of edges in the graph. If `n` is large enough, the probability `Pr` becomes extraordinarily small — "negligible."
@@ -283,26 +280,6 @@ Whether it’s a brilliant number theory theorem, the map 3-coloring problem, or
 
 
 
-
-### 参考文献
-
-+ [1] 西蒙, 辛格, 薛密. 费马大定理: 一个困惑了世间智者 358 年的谜[M]. 上海译文出版社, 1998.
-+ [2]  Alec Wilkinson. The Pursuit of Beauty: Yitang Zhang solves a pure-math mystery. The New Yorker. Feb. 2015.
-+ [3] 马丁, 戴维斯, 张卜天. 逻辑的引擎[M]. 湖南科学技术出版社, 2012.
-+ [4] Raymond Smullyan. Gödel's Incompleteness Theorems, Oxford Univ.Press. 1991.
-+ [5] Turing, Alan. "On computable numbers, with an application to the Entscheidungsproblem." *Proceedings of the London mathematical society* 2.1 (1937): 230-265.
-+ [6] Pierce, Benjamin C., et al. "Software foundations." 中文译文: <https://github.com/Coq-zh/SF-zh
-+ [7] Kolata, Gina. "Computer math proof shows reasoning power." *Math Horizons* 4.3 (1997): 22-25.
-+ [8] Goldwasser, Shafi, Silvio Micali, and Charles Rackoff. "The knowledge complexity of interactive proof systems." *SIAM Journal on computing* 18.1 (1989): 186-208.
-+ [9] zkPoD: 区块链，零知识证明与形式化验证，实现无中介、零信任的公平交易. 安比实验室. 2019.
-+ [10] Oded, Goldreich. "Foundations of cryptography basic tools." (2001). 
-+ [11] Gennaro, Rosario, et al. "Quadratic span programs and succinct NIZKs without PCPs." Annual
-  International Conference on the Theory and Applications of Cryptographic Techniques. Springer Berlin, Heidelberg, 2013.
-+ [12] Ben-Sasson, Eli, et al. "Scalable, transparent, and post-quantum secure computational integrity." *IACR Cryptology ePrint Archive* 2018 (2018): 46.
-+ [13] Bünz, Benedikt, et al. "Bulletproofs: Short proofs for confidential transactions and more." 2018
-  IEEE Symposium on Security and Privacy (SP). IEEE, 2018.
-
-
 ### References
 + [1] Singh, Simon, and Xue Mi. *Fermat’s Last Theorem: A Problem That Confounded the World’s Smartest Minds for 358 Years*. Shanghai Translation Publishing House, 1998.
 + [2] Alec Wilkinson. "The Pursuit of Beauty: Yitang Zhang Solves a Pure-Math Mystery." *The New Yorker*, Feb. 2015.+ [3] Davis, Martin, and Zhang Butian. *Engines of Logic*. Hunan Science and Technology Press, 2012.
@@ -311,7 +288,7 @@ Whether it’s a brilliant number theory theorem, the map 3-coloring problem, or
 + [6] Pierce, Benjamin C., et al. *Software Foundations*. Chinese translation: <https://github.com/Coq-zh/SF-zh>.
 + [7] Kolata, Gina. "Computer Math Proof Shows Reasoning Power." *Math Horizons* 4.3 (1997): 22-25.
 + [8] Goldwasser, Shafi, Silvio Micali, and Charles Rackoff. "The Knowledge Complexity of Interactive Proof Systems." *SIAM Journal on Computing* 18.1 (1989): 186-208.
-+ [9] zkPoD: Blockchain, Zero-Knowledge Proof, and Formal Verification for Fair Transactions Without Intermediaries. Ant Financial Labs, 2019.
++ [9] zkPoD: Blockchain, Zero-Knowledge Proof, and Formal Verification for Fair Transactions Without Intermediaries. SECBIT Labs, 2019.
 + [10] Goldreich, Oded. *Foundations of Cryptography: Basic Tools*. 2001.
 + [11] Gennaro, Rosario, et al. "Quadratic Span Programs and Succinct NIZKs Without PCPs." *Annual International Conference on the Theory and Applications of Cryptographic Techniques*. Springer Berlin, Heidelberg, 2013.
 + [12] Ben-Sasson, Eli, et al. "Scalable, Transparent, and Post-Quantum Secure Computational Integrity." *IACR Cryptology ePrint Archive* 2018 (2018): 46.

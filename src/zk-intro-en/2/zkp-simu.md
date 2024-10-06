@@ -73,7 +73,7 @@ To repeat: in the "Real World", you are conversing with a real and honest Alice;
 Now, your two doppelgangers in the two worlds engage in conversation with the real and fake Alices simultaneously. Something magical happens: in both worlds, your two doppelgangers are convinced by their counterparts. After `n` rounds of challenges, neither of them detects any cheating. In other words, you cannot distinguish whether you are in the Real World or the Ideal World, and you certainly can’t tell whether you are talking to Alice or Zlice. Moreover, if I, the observer, were placed in either world, I would be just like you —— unable to distinguish whether the "Alice" in front of me is real or fake.
 
 
-![](img/indist.png)
+![2-1](img/2-1.png)
 
 Here comes the mind-bending conclusion:
 
@@ -132,7 +132,7 @@ Let’s look at a concrete example from the previous article [1], the map 3-colo
  
  Recall the "map 3-coloring interactive system":
  
-![](img/3c-123.png)
+![2-2](img/2-2.png)
 
 + Step 1: Alice permutes the 3-coloring solution and covers all vertices with pieces of paper, then presents the graph to Bob.
 + Step 2: Bob randomly selects an edge.
@@ -141,36 +141,36 @@ Let’s look at a concrete example from the previous article [1], the map 3-colo
 
 Let’s now prove that this interaction is zero-knowledge. For now, we’ll assume that Bob is honest. This will help us understand the proof process. Later, we’ll discuss how to prove zero-knowledge when Bob is dishonest.
 
-![](img/3c-zk0.png)
+![2-3](img/2-3.png)
 
 In the Ideal World, Bob is interacting with a simulator that simulates the entire world. Bob follows the interactive protocol of the 3-coloring problem. The simulator doesn’t know the 3-coloring solution, so it simply colors all the vertices gray.
 
 
-![](img/3c-zk1.png)
+![2-4](img/2-4.png)
 
  First, the simulator mimics Alice by covering each vertex with a piece of paper. Then it presents the graph to Bob.
 
-![](img/3c-zk2.png)
+![2-5](img/2-5.png)
 
 Bob randomly selects an edge and challenges the prover.
 
-![](img/3c-zk3.png)
+![2-6](img/2-6.png)
 
-At this point, the simulator cannot uncover the paper because both ends of the selected edge are gray.
+At this point, the simulator cannot uncover the paper because both ends of the selected edge are black.
 
-![](img/3c-zk4.png)
+![2-7](img/2-7.png)
 
 This is when the simulator uses its superpower: it rewinds time and returns to before the first step of the conversation.
 
-![](img/3c-zk5.png)
+![2-8](img/2-8.png)
 
 Now back at the first step, the simulator colors the two ends of the bottom edge with two distinct random colors and covers them with paper again before presenting the graph to Bob.
 
-![](img/3c-zk6.png)
+![2-9](img/2-9.png)
 
 Bob, unaware that time has been rewound, honestly selects the same bottom edge.
 
-![](img/3c-zk7.png)
+![2-10](img/2-10.png)
 
 
 At this point, the simulator can confidently uncover the paper, letting Bob check. Bob is obviously fooled. The simulator repeats this process for each round, continuously using time rewinding to fool Bob.
@@ -183,35 +183,6 @@ Thus, in the Ideal World, the simulator has no knowledge of the 3-coloring solut
 
 In the proof above, we made a strong assumption that after each rewind, Bob would choose the same edge. But what if Bob chooses a different edge each time? That’s okay. After the simulator rewinds time for the first time, if Bob chooses a different edge, the simulator can reshuffle the colors and rewind time again. After several rewinds, Bob will have a high probability of eventually choosing the edge that the simulator recolored. Only then will the simulator proceed to the third step and uncover the paper.
 
-
-## Alibaba, the Cave, and "Open Sesame"
-
-Among the many Chinese popular science articles about zero-knowledge proofs, there’s a widely circulated example: the story of Alibaba and the thieves. Unfortunately, most versions of this story only tell **half of it**. So, let me tell you a different version of the story of Alibaba and the Forty Thieves: 
-
-Long,long ago, in the city of Baghdad, there was a man named Alibaba. Every day, Alibaba would go to the market to buy things. One day, a thief stole Alibaba’s wallet, so he chased the thief all the way to the entrance of a cave, where the thief disappeared. Alibaba found that inside the cave, there were two passageways, as shown in the diagram below.
-
-![](img/alibaba2.jpg)
-
-Not knowing which way the thief had gone, Alibaba decided to check the **left** passage. Soon, Alibaba found it was a dead end, and there was no sign of the thief. Then he checked the **right** passage, but it was also a dead end, and there was no thief to be found. 
-
-This was strange. The same thing happened on the second day when another thief stole Alibaba’s basket. He chased the thief back to the same cave, and once again, the thief disappeared. This time, Alibaba decided to check the **right** passage first, but again, he found nothing.
-
-This continued for several days, and on the **fortieth day**, Alibaba chased a fortieth thief to the mysterious cave, and the thief disappeared again. Alibaba thought, “There must be a mechanism inside this cave.” So he hid at the end of the **right** passage, patiently waiting. After a long time, a thief came in, walked to the end of the passage, and muttered a spell, “Open Sesame”. To Alibaba’s surprise, the wall opened up, and the thief entered. 
-
-After the thief left, Alibaba tried the spell himself, and sure enough, it worked. Alibaba discovered that this wall led to the **left** passage. Later, Alibaba found a way to change the spell and wrote the new spell and the location of the cave on a parchment.
-
-Note: The story doesn’t end here... (credits rolling) Many years later...
-
-
-Many years later, in the 1980s, Alibaba’s parchment ended up in the hands of some cryptographers. They traveled to Baghdad and found the cave. Remarkably, despite the centuries that had passed, the spell still worked. The cryptographers excitedly opened the wall and began running back and forth between the two passages.
-
-A television station soon caught wind of this strange event. A cryptographer named Mick Ali (whose name sounds like Micali, a cryptographer) decided to demonstrate to the TV audience that he knew the spell. First, the TV host set up a camera at the cave entrance, and everyone waited outside. Mick Ali entered the cave alone, and the host flipped a coin to decide which passage Mick Ali should exit from. To commemorate Alibaba and the Forty Thieves, Mick Ali repeated this process forty times, successfully exiting the correct passage each time.
-
-The show was a huge hit. But soon, another TV station, envious of the success, wanted to shoot a similar show. However, due to an exclusive contract, Mick Ali couldn’t participate in the new show. What could they do? The second station’s host came up with a clever idea. He found an actor who looked very similar to Mick Ali. The actor mimicked Mick Ali’s style, dress, and accent. Then they began filming. After each coin flip, the actor would emerge from the cave, but it was clear that the actor didn’t know the spell and couldn’t open the wall. The actor occasionally succeeded by sheer luck, but more often than not, he failed. After nearly a hundred attempts, the actor succeeded forty times. Finally, the cunning new host **edited the footage**, keeping only the successful attempts and discarding the failures. The new show aired at the same time as Mick Ali’s, but on a different channel. The audience was **completely unable to tell** which video was real and which was fake. The original TV host knew that Mick Ali was the one who truly knew the spell, but he couldn’t convey this fact to the innocent viewers.
-
-At this point, are you starting to get a feel for "simulation"? In this case, the second TV host achieved the same effect by editing the video rather than rewinding time. For the Ideal World, this editing is essentially a superpower. This story is actually based on a paper titled *"How to Explain Zero-Knowledge Protocols to Your Children"* [3], which was presented at the 1989 CRYPTO conference.!
-
-![](img/alibaba.png)
 
 
 ## Simulation and Turing Machines
@@ -236,27 +207,6 @@ If you still don’t get it, please go back to the section *"Distinguishing the 
 
 
 
-## Plato’s Allegory of the Cave
-
-Simulation is everywhere. Gödel’s incompleteness theorem uses the concept of simulation, simulating formal arithmetic with Gödel numbers. Turing proposed the concept of the **Universal Turing Machine**, a machine that can simulate itself. 
-
-But the earliest concept of "simulation" comes from **The Republic**, Book VII, where the Greek philosopher Plato tells the **Allegory of the Cave**:
-
-![plato's cave](img/plato-cave.jpeg)
-
-Imagine a dark cave where a row of prisoners has been chained since birth, and they can only see the wall in front of them. Behind the prisoners is a wall, and behind the wall is a fire. Between the fire and the wall, some people walk back and forth holding props and puppets. The fire casts shadows of these objects onto the wall in front of the prisoners. These prisoners have only ever seen the shadows on the wall and, since birth, have known only these shadows. They believe that the shadows are the most real things in the world.
-
-One day, one of the prisoners manages to break free from the chains. He turns around and sees the fire for the first time. Having only seen dim shadows all his life, the bright fire is overwhelming. If someone told him that the objects casting the shadows are the real things, he would scoff and insist that the shadows are reality.
-
-Plato imagined that if this prisoner were forcibly dragged out of the cave into the outside world, at first, he would be blinded by the bright light and feel disoriented. He would even be angry. But as he gradually adjusted to the new world, seeing the sun, trees, rivers, and stars, he would come to understand that this world was far superior to the one in the cave. He would never want to return to the dark cave again.
-
-After some time, he begins to feel pity for the prisoners still locked in the cave, so he decides to go back and rescue them. But when he returns to the cave, having become accustomed to the bright outside world, he finds it difficult to see clearly in the cave’s darkness. The prisoners, seeing him stumble, assume he has lost his sight and dismiss him as crazy. When he tries to bring them out of the cave, they band together and kill him.
-
-This is an allegory about the fate of humanity. Like the prisoners chained in the cave, we assume that what we see is the truth, but in reality, it may be an illusion—just like the shadows cast on the cave wall.
-
-
-
-
 ## To Be Continued
 
 This article introduced the key concept needed to understand zero-knowledge: simulation. Any zero-knowledge protocol can be understood by constructing an Ideal World. Readers encountering this concept for the first time may need to ponder it repeatedly.
@@ -272,7 +222,7 @@ But here’s the problem: Alice’s lack of superpowers doesn’t directly prove
 
 
 ### References
-+ [1] An Introduction to Zero Knowledge and Proofs*. Ant Financial Labs. 2019.
++ [1] An Introduction to Zero Knowledge and Proofs*. SECBIT Labs. 2019.
 + [2] Shafi Goldwasser and Silvio Micali, *Probabilistic Encryption*, Special issue of Journal of Computer and Systems Sciences, Vol. 28, No. 2, pages 270-299, April 1984.
 + [3] Quisquater, J.J., et al., *How to Explain Zero-Knowledge Protocols to Your Children*, 1989, August. In *Conference on the Theory and Application of Cryptology*. Springer, New York, NY.
 + [4] Plato and Wu Xianshu, *The Republic*. Commercial Press, 1986.
@@ -280,7 +230,7 @@ But here’s the problem: Alice’s lack of superpowers doesn’t directly prove
 + [6] Oded, Goldreich. *Foundations of Cryptography: Basic Tools*. (2001). 
 + [7] Rackoff, Charles, and Daniel R. Simon. *Non-interactive Zero-Knowledge Proof of Knowledge and Chosen Ciphertext Attack*. Annual International Cryptology Conference. Springer, Berlin, Heidelberg, 1991.
 + [8] Goldreich, Oded, Silvio Micali, and Avi Wigderson. *Proofs that Yield Nothing but Their Validity or All Languages in NP Have Zero-Knowledge Proof Systems*. Journal of the ACM (JACM) 38.3 (1991): 690-728.
-+ [9] zkPoD: Blockchain, Zero-Knowledge Proofs, and Formal Verification for Fair Transactions Without Intermediaries. Ant Financial Labs. 2019.
++ [9] zkPoD: Blockchain, Zero-Knowledge Proofs, and Formal Verification for Fair Transactions Without Intermediaries. SECBIT Labs. 2019.
 + [10] Matthew Green. *Zero Knowledge Proofs: An Illustrated Primer*. 2014. https://blog.cryptographyengineering.com/2014/11/27/zero-knowledge-proofs-illustrated-primer/
 + [11] Matthew Green. *Zero Knowledge Proofs: An Illustrated Primer, Part 2*. 2017. https://blog.cryptographyengineering.com/2017/01/21/zero-knowledge-proofs-illustrated-primer-part-2/
 
