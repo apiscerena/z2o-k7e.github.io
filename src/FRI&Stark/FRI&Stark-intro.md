@@ -35,3 +35,6 @@ lambda class版zk-stark的[理论和实现流程](https://lambdaclass.github.io/
 + [Fiat-Shamir Security of FRI and Related SNARKs](https://eprint.iacr.org/2023/1071.pdf)
 
 + [Proximity Gaps for Reed-Solomon Codes](https://eprint.iacr.org/2020/654.pdf)
+
+【Circle STARK】
++ [Awesome Circle STARKs](https://github.com/kurtpan666/awesome-circlestark)
