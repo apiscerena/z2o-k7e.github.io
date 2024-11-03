@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="src/black-logo.jpg" alt="ZKPunk logo" />
+  <img src="black-logo.jpg" alt="ZKPunk logo" />
 </div>
 
 ZKPunk is a content platform centered around Zero-Knowledge Proof (ZKP) technology, dedicated to promoting its adoption and development. ZKPunk focuses on integrating resources related to Zero-Knowledge Proofs, creating high-quality learning materials and tools to help ZKP enthusiasts worldwide better understand and apply this technology.
@@ -24,7 +24,7 @@ By providing high-quality ZKP content and tools, we aim to promote the widesprea
 
 ### 📔 ZKPedia
 
-[ZKPedia](https://zkpunk.pro/ZKPedia/) 
+[ZKPedia](https://zkpunk.pro/ZKPedia/)
 
 The goal is to build a high-quality ZKP knowledge base that community members can easily access and learn from at any time.
 
@@ -32,7 +32,7 @@ The goal is to build a high-quality ZKP knowledge base that community members ca
 
 ### 💡 ZK Insights
 
-[ZK Insight](https://insights.zkpunk.pro) 
+[ZK Insight](https://insights.zkpunk.pro)
 
 
 It is a weekly report in the ZKP field, covering the latest technological advancements, academic papers, and project updates, helping the community stay at the forefront of developments in the ZKP industry.

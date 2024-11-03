@@ -24,7 +24,7 @@ By providing high-quality ZKP content and tools, we aim to promote the widesprea
 
 ### 📔 ZKPedia
 
-[ZKPedia](https://zkpunk.pro/ZKPedia/) 
+[ZKPedia](https://zkpunk.pro/ZKPedia/)
 
 The goal is to build a high-quality ZKP knowledge base that community members can easily access and learn from at any time.
 
@@ -32,7 +32,7 @@ The goal is to build a high-quality ZKP knowledge base that community members ca
 
 ### 💡 ZK Insights
 
-[ZK Insight](https://insights.zkpunk.pro) 
+[ZK Insight](https://insights.zkpunk.pro)
 
 
 It is a weekly report in the ZKP field, covering the latest technological advancements, academic papers, and project updates, helping the community stay at the forefront of developments in the ZKP industry.

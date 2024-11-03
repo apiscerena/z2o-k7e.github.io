@@ -3,8 +3,8 @@ authors = ["zkp-co-learning contributors"]
 language = "cn"
 multilingual = false
 src = "src"
-title = "World of ZKPunk"
-description = "零知世界, Halo2 Tutorial, world of Zero-knowledge proof, Halo2 教程"
+title = "ZKPunk's ZKPedia"
+description = ""
 
 [build]
 extra-watch-dirs = ["po"]
