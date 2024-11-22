@@ -1,6 +1,10 @@
 
 <div align="center">
   <img src="src/black-logo.jpg" alt="ZKPunk logo" />
+
+
+  <a href="https://discord.gg/cRYNYXqPeR"><img src="https://img.shields.io/discord/907080577096757279?color=5865F2&logo=discord&logoColor=white&label=discord" alt="Discord server" /></a>
+
 </div>
 
 ZKPunk is a content platform centered around Zero-Knowledge Proof (ZKP) technology, dedicated to promoting its adoption and development. ZKPunk focuses on integrating resources related to Zero-Knowledge Proofs, creating high-quality learning materials and tools to help ZKP enthusiasts worldwide better understand and apply this technology.
